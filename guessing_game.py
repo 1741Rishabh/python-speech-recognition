@@ -50,7 +50,7 @@ def recognize_speech_from_mic(recognizer, microphone):
         response["error"] = "Unable to recognize speech"
 
     return response
-
+# Main body
 
 if __name__ == "__main__":
     # set the list of words, maxnumber of guesses, and prompt limit
